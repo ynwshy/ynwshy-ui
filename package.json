@@ -1,11 +1,26 @@
 {
   "name": "ynwshy-ui",
+  "description": "ynwshy-ui vue element-ui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "ynwshy",
+  "main": "lib/ynwshy-ui.common.js",
+  "license": "MIT",
   "scripts": {
+    "lib": "vue-cli-service build --target lib --name ynwshy-ui --dest lib packages/index.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
+  },
+  "files": [
+    "lib",
+    "src",
+    "packages",
+    "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ynwshy/ynwshy-ui"
   },
   "dependencies": {
     "core-js": "^3.6.5",
