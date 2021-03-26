@@ -1,18 +1,9 @@
-# ynwshy-ui
+---
+title: "ssss"
+sidebarDepth: 1
+---
 
-- 参考 https://juejin.cn/post/6847902225063215111
-
-## Project setup
-
-```
-npm install
-```
-
-### 打包
-
-```
-npm run lib
-```
+# 是 start
 
 ```
 npm i ynwshy-ui -S

@@ -11,12 +11,13 @@ module.exports = {
     sidebar: [
       {
         title: "开发指南",
-        collapsable: true,
-        children: ["views/guide/install.md", "views/guide/get-started.md"],
+        children: [
+          '/'
+        ]
+        // children: ["views/guide/install.md", "views/guide/get-started.md"],
       },
       {
         title: "组件",
-        collapsable: true,
         children: ["views/components/basic/"],
       },
     ],
